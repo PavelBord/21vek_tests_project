@@ -7,5 +7,6 @@ wheels/
 *.egg-info
 .vscode
 .pytest_cache
+.env
 # Virtual environments
 .venv
