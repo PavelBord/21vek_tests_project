@@ -1,0 +1,18 @@
+[project]
+name = "playwright-lesson"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "playwright>=1.61.0",
+    "python-dotenv>=1.2.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest-playwright>=0.8.0",
+]
+
+[tool.pytest.ini_options]
+addopts = "--base-url=https://www.21vek.by/ --headed --slowmo 1000"
